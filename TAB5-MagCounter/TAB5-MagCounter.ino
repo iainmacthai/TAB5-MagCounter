@@ -5,7 +5,7 @@
 #include "NotoSansBold15.h"
 #include "tinyFont.h"
 #include "smallFont.h"
-#include "midleFont.h"
+#include "middleFont.h"
 #include "bigFont.h"
 #include "font18.h"
 
@@ -53,7 +53,7 @@ void setup() {
     drawButtons();
     
     // Add title
-    M5.Display.loadFont(midleFont); // Use middleFont from your original includes
+    M5.Display.loadFont(middleFont); // Use middleFont from your original includes
     M5.Display.setTextColor(WHITE, BACKGROUND_COLOR);
     M5.Display.setTextDatum(middle_center);
     M5.Display.drawString("SIMPLE CONTROL PANEL", 640, 120);
